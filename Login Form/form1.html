@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<style type="text/css">
+	body
+	{
+		background-image: url('');
+
+	}
+	/*input[type=text]
+	{
+		height:px;
+		}*/
+		#main1
+		{
+			height: 600px;
+			width: 35%;
+			/*border: 2px solid black;*/
+			display: inline;
+			float: right;
+			margin-right: 160px;
+			background-color: rgb(225, 225, 225);
+
+		}
+		#main2
+		{
+		/*height: 300px;
+		width: 200px;
+		border: 2px solid black;*/
+		display: inline;
+		float: left;
+
+	}
+	img
+	{
+		margin-left: 150px;
+		height: 600px;
+		width: 500px;
+	}
+	h1
+	{
+		text-align: center;
+	}
+	#div1
+	{
+		/*border: 2px solid red;*/
+		float: left;
+		display: inline;
+	}
+	#div2
+	{
+		/*border: 2px solid blue;*/
+		float: right;
+		display: inline;
+	}
+	#div3
+	{
+		display: inline;
+		/*border: 2px solid orange;*/
+		float: left;
+	}
+	#div4
+	{
+		display: inline;
+		float: right;
+		/*border: 2px solid red;*/
+	}
+	#abc
+	{
+		padding: 17px;
+	}
+	#b1
+	{
+		background-color: grey;
+		color: black;
+		margin-left: 250px;
+		cursor: pointer;
+
+	}
+	#b2
+	{
+		background-color: orange;
+		color: white;
+		float: right;
+		cursor: pointer;
+	}
+	#bcd
+	{
+		background-color: black;
+	}
+</style>
+</head>
+<body>
+	<div id="main">
+		<div id="main1">
+
+			<form>
+				<h1><b>REGISTRATION FORM</b></h1>
+				<hr id="bcd" style="height:5px"; >
+				<br>
+				<div id="abc">
+					<div id="div1">
+						<b>Name</b>:<br>
+						<input type="text" name="" placeholder="Student name">
+					</div>
+					<div id="div2">
+						<b>Father Name</b>:<br>
+						<input type="text" name="" placeholder="Father name">
+					</div><br><br><br><br>
+					<b>Address</b>:<br>
+					<input type="text" name="" placeholder="Enter address"><br><br>
+					<b>Gender</b>:
+					<input type="radio" name="abc">Male
+					<input type="radio" name="abc">Female
+					<br>
+					<div id="div3">
+						<br>
+						<b>State</b>:<br>
+						<select>
+							<option selected="" disabled="">Select Your State</option>
+							<option>Uttrakhand</option>
+							<option>West Bangal</option>
+							<option>Delhi NCR</option>
+							<option>Uttar Pradesh East</option>
+							<option>Uttar Pradesh West</option>
+						</select>
+					</div>
+					<div id="div4"><br>
+						<b>City</b>:<br>
+						<select>
+							<option selected="" disabled="">Select Your City</option>
+							<option>LUcknow</option>
+							<option>Agra</option>
+							<option>Allahabad</option>
+							<option>Meerut</option>
+							<option>Aligarh</option>
+							<option>Kanpur</option>
+							<option>Bijnor</option>
+						</select>
+					</div>
+					<br><br><br><br>	
+					<b>Date Of Birth</b>:<br>
+					<input type="text" name="" placeholder="Enter Your D.o.B">
+					<br><br>
+					<b>Pin Code</b>:<br>
+					<input type="tel" name="" placeholder="Enetr Code">
+					<br><br>
+					<b>Course</b>:<br>
+					<select>
+						<option selected="" disabled="">Choose Your Course</option>
+						<option>B.tech</option>
+						<option>B.Sc</option>
+						<option>M.sc</option>
+						<option>B.Pharama</option>
+						<option>Diploma</option>
+					</select>
+					<br><br>
+					<b>Email Id</b>:<br>
+					<input type="Email" name="" placeholder="Your E-mail">
+					<br><br>
+					<button id="b1">Reset All</button>
+					<button id="b2">Submit All</button>
+				</div>
+			</form>
+		</div>
+		<div id="main2">
+			<img src="v.jpeg">
+		</div>
+	</div>
+</body>
+</html>
